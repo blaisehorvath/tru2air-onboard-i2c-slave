@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="dk.xpg.msp430eclipse.configuration.app.debug.1397410198">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="dk.xpg.msp430eclipse.configuration.app.debug.1397410198" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="dk.xpg.msp430eclipse.buildArtefactType.app" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=dk.xpg.msp430eclipse.buildArtefactType.app,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.VCErrorParser" id="dk.xpg.msp430eclipse.configuration.app.debug.1397410198" name="Debug" parent="dk.xpg.msp430eclipse.configuration.app.debug">
+					<folderInfo id="dk.xpg.msp430eclipse.configuration.app.debug.1397410198." name="/" resourcePath="">
+						<toolChain id="dk.xpg.msp430eclipse.toolchain.gcc.app.debug.881650582" name="MSP430 GCC Toolchain" superClass="dk.xpg.msp430eclipse.toolchain.gcc.app.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="dk.xpg.msp430eclipse.targetplatform.msp430.1960931639" isAbstract="false" name="MSP430 Cross-Target" osList="all" superClass="dk.xpg.msp430eclipse.targetplatform.msp430"/>
+							<builder buildPath="${workspace_loc:/tru2air-onboard-i2c-slave}/Debug" id="dk.xpg.msp430eclipse.target.gnu.builder.40949238" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="MSP430 GNU Make Builder" superClass="dk.xpg.msp430eclipse.target.gnu.builder"/>
+							<tool id="dk.xpg.msp430eclipse.tool.compiler.gcc.515257801" name="MSP430 C Compiler" superClass="dk.xpg.msp430eclipse.tool.compiler.gcc">
+								<option defaultValue="dk.xpg.msp430eclipse.compiler.option.optimization.level.none" id="dk.xpg.msp430eclipse.compiler.option.optimization.level.1708577903" name="Optimization Level" superClass="dk.xpg.msp430eclipse.compiler.option.optimization.level" valueType="enumerated"/>
+								<option defaultValue="dk.xpg.msp430eclipse.compiler.option.debugging.level.default" id="dk.xpg.msp430eclipse.compiler.option.debugging.level.344579620" name="Debugging Level" superClass="dk.xpg.msp430eclipse.compiler.option.debugging.level" valueType="enumerated"/>
+								<inputType id="dk.xpg.msp430eclipse.tool.compiler.gcc.input.2020793673" name="C Source File" superClass="dk.xpg.msp430eclipse.tool.compiler.gcc.input"/>
+								<inputType id="dk.xpg.msp430eclipse.tool.compiler.gcc.input.cc.1592421971" name="C++ Source File" superClass="dk.xpg.msp430eclipse.tool.compiler.gcc.input.cc"/>
+							</tool>
+							<tool id="dk.xpg.msp430eclipse.tool.assembler.gcc.1400998372" name="MSP430 Assembler" superClass="dk.xpg.msp430eclipse.tool.assembler.gcc">
+								<inputType id="dk.xpg.msp430eclipse.tool.assembler.input.1921632395" name="Assembler Files" superClass="dk.xpg.msp430eclipse.tool.assembler.input"/>
+							</tool>
+							<tool id="dk.xpg.msp430eclipse.tool.linker.gcc.43058520" name="MSP430 Linker" superClass="dk.xpg.msp430eclipse.tool.linker.gcc">
+								<inputType id="dk.xpg.msp430eclipse.tool.linker.input.1114676867" name="Object Files" superClass="dk.xpg.msp430eclipse.tool.linker.input"/>
+							</tool>
+							<tool id="dk.xpg.msp430eclipse.tool.archiver.gcc.44811765" name="MSP430 Archiver" superClass="dk.xpg.msp430eclipse.tool.archiver.gcc"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="dk.xpg.msp430eclipse.configuration.app.release.1416511318">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="dk.xpg.msp430eclipse.configuration.app.release.1416511318" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="dk.xpg.msp430eclipse.buildArtefactType.app" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=dk.xpg.msp430eclipse.buildArtefactType.app,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.VCErrorParser" id="dk.xpg.msp430eclipse.configuration.app.release.1416511318" name="Release" parent="dk.xpg.msp430eclipse.configuration.app.release">
+					<folderInfo id="dk.xpg.msp430eclipse.configuration.app.release.1416511318." name="/" resourcePath="">
+						<toolChain id="dk.xpg.msp430eclipse.toolchain.gcc.app.release.1054120071" name="MSP430 GCC Toolchain" superClass="dk.xpg.msp430eclipse.toolchain.gcc.app.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="dk.xpg.msp430eclipse.targetplatform.msp430.1603722032" isAbstract="false" name="MSP430 Cross-Target" osList="all" superClass="dk.xpg.msp430eclipse.targetplatform.msp430"/>
+							<builder buildPath="${workspace_loc:/tru2air-onboard-i2c-slave}/Release" id="dk.xpg.msp430eclipse.target.gnu.builder.2105144337" managedBuildOn="true" name="MSP430 GNU Make Builder.Release" superClass="dk.xpg.msp430eclipse.target.gnu.builder"/>
+							<tool id="dk.xpg.msp430eclipse.tool.compiler.gcc.949494747" name="MSP430 C Compiler" superClass="dk.xpg.msp430eclipse.tool.compiler.gcc">
+								<option defaultValue="dk.xpg.msp430eclipse.compiler.option.optimization.level.most" id="dk.xpg.msp430eclipse.compiler.option.optimization.level.369421110" superClass="dk.xpg.msp430eclipse.compiler.option.optimization.level" valueType="enumerated"/>
+								<option defaultValue="dk.xpg.msp430eclipse.compiler.option.debugging.level.none" id="dk.xpg.msp430eclipse.compiler.option.debugging.level.1665082151" superClass="dk.xpg.msp430eclipse.compiler.option.debugging.level" valueType="enumerated"/>
+								<inputType id="dk.xpg.msp430eclipse.tool.compiler.gcc.input.1628819206" name="C Source File" superClass="dk.xpg.msp430eclipse.tool.compiler.gcc.input"/>
+								<inputType id="dk.xpg.msp430eclipse.tool.compiler.gcc.input.cc.191379225" name="C++ Source File" superClass="dk.xpg.msp430eclipse.tool.compiler.gcc.input.cc"/>
+							</tool>
+							<tool id="dk.xpg.msp430eclipse.tool.assembler.gcc.370828473" name="MSP430 Assembler" superClass="dk.xpg.msp430eclipse.tool.assembler.gcc">
+								<inputType id="dk.xpg.msp430eclipse.tool.assembler.input.731547787" name="Assembler Files" superClass="dk.xpg.msp430eclipse.tool.assembler.input"/>
+							</tool>
+							<tool id="dk.xpg.msp430eclipse.tool.linker.gcc.1177829617" name="MSP430 Linker" superClass="dk.xpg.msp430eclipse.tool.linker.gcc">
+								<inputType id="dk.xpg.msp430eclipse.tool.linker.input.1543305541" name="Object Files" superClass="dk.xpg.msp430eclipse.tool.linker.input"/>
+							</tool>
+							<tool id="dk.xpg.msp430eclipse.tool.archiver.gcc.1030997831" name="MSP430 Archiver" superClass="dk.xpg.msp430eclipse.tool.archiver.gcc"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="tru2air-onboard-i2c-slave.dk.xpg.msp430eclipse.project.gcc.elf.263309751" name="MSP430 Cross Target Application" projectType="dk.xpg.msp430eclipse.project.gcc.elf"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
